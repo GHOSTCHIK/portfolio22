@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+header {
+  text-align: center;
+  padding: 30px 10px;
+  background: rgba(100, 0, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+.gallery {
+  width: 90%;
+  margin: 30px auto;
+}
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
